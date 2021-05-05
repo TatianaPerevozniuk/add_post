@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/add_post/static/css/main.996904c3.chunk.css",
+    "main.js": "/add_post/static/js/main.c4f9eef3.chunk.js",
+    "main.js.map": "/add_post/static/js/main.c4f9eef3.chunk.js.map",
+    "runtime-main.js": "/add_post/static/js/runtime-main.a597b04d.js",
+    "runtime-main.js.map": "/add_post/static/js/runtime-main.a597b04d.js.map",
+    "static/js/2.b61fc8e1.chunk.js": "/add_post/static/js/2.b61fc8e1.chunk.js",
+    "static/js/2.b61fc8e1.chunk.js.map": "/add_post/static/js/2.b61fc8e1.chunk.js.map",
+    "static/js/3.b39f2a8e.chunk.js": "/add_post/static/js/3.b39f2a8e.chunk.js",
+    "static/js/3.b39f2a8e.chunk.js.map": "/add_post/static/js/3.b39f2a8e.chunk.js.map",
+    "index.html": "/add_post/index.html",
+    "static/css/main.996904c3.chunk.css.map": "/add_post/static/css/main.996904c3.chunk.css.map",
+    "static/js/2.b61fc8e1.chunk.js.LICENSE.txt": "/add_post/static/js/2.b61fc8e1.chunk.js.LICENSE.txt",
+    "static/media/comment.9fdc4542.svg": "/add_post/static/media/comment.9fdc4542.svg",
+    "static/media/like.b16558c9.svg": "/add_post/static/media/like.b16558c9.svg",
+    "static/media/retweet.37a032b6.svg": "/add_post/static/media/retweet.37a032b6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a597b04d.js",
+    "static/js/2.b61fc8e1.chunk.js",
+    "static/css/main.996904c3.chunk.css",
+    "static/js/main.c4f9eef3.chunk.js"
+  ]
+}
