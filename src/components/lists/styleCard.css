@@ -1,0 +1,75 @@
+
+.cardInfo {
+    margin-top: 5%;
+    width: 100%;
+    max-width: 1000px;
+    border: white solid 1px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/*headr*/
+.userInfo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 2%;
+    padding-left: 2%;
+    gap: 10px;
+}
+
+.profilePhoto {
+    width: 70px;
+    overflow: hidden;
+    border-radius: 100%;
+
+}
+
+.profileName {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 500;
+}
+
+.profilePseudonym {
+    color: grey;
+    font-size: 18px;
+}
+
+.date {
+    color: grey;
+}
+
+/*main*/
+.content {
+    padding: 10px;
+}
+
+.comment {
+    text-align: left;
+    padding: 2%;
+}
+
+.img {
+    border-radius: 30px;
+}
+
+/*footer*/
+.img_icon {
+    width: 20px;
+    height: 20px;
+}
+.footerCard {
+    display: flex;
+    align-items: center;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    justify-content: space-between;
+}
+.icon_footer {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
