@@ -6,8 +6,6 @@ import {addPost} from "../../store";
 const FormInput = () => {
     const users = useSelector(state => state.users);
     const dispatch = useDispatch();
-    const date = new Date().toLocaleString("ua", {month: 'long', day: 'numeric', year:'numeric',
-        hour:'2-digit', minute:'2-digit', second: '2-digit'});
 
     const [inputValue, setInputValue] = useState({
         name: '',
@@ -27,7 +25,10 @@ const FormInput = () => {
     const handleSubmit = e => {
         e.preventDefault();
         const user = users.find(item => item.name === inputValue.name);
-        console.log(user.nickname)
+
+        const date = new Date().toLocaleString("ua", {month: 'long', day: 'numeric', year:'numeric',
+            hour:'2-digit', minute:'2-digit', second: '2-digit'});
+
         const inputPost = {
             id: user.id,
             name: user.name,
